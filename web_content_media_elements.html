@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Content Integration & Media Elements</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jfif">
+    <style>
+        .highlight{
+            color: red;
+        }
+        .container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; 
+        }
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+        h4{
+            margin-bottom: 0.2rem;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .flex-item-left {
+            flex: 30%; 
+            height: 200px;
+        }
+
+        .flex-item-right {
+            flex: 30%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body id="top">     
+    <header>
+      <h1>Web Content Integration & Media Elements</h1>
+      <p>This website demonstrates how web content and media elements are integrated.</p>
+    </header>
+    <main>
+        <section>
+            <!-- Example of block element illustration -->
+            <div>
+                <p class="highlight">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In inventore at facilis labore numquam consequatur delectus voluptate, est explicabo ducimus nihil, provident eos enim veniam dolore illum quis accusamus. Esse placeat repellat laboriosam non praesentium natus ipsam iste eos. Sit perspiciatis ipsa sapiente eaque! Repudiandae temporibus est sunt! Corrupti, architecto?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ab animi accusamus veritatis soluta dolor, voluptates ut quidem aliquam laborum.<p>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores impedit, doloribus quaerat eos eveniet minus nihil praesentium ratione soluta inventore harum quam dolore est deleniti sed odit non voluptatibus aut ipsum accusamus voluptas beatae. Facere in error blanditiis suscipit accusamus illum pariatur, laboriosam quidem doloremque quod sit debitis voluptatem, provident voluptates ad quis sapiente odio! Itaque dicta temporibus laboriosam fuga molestiae nisi perspiciatis obcaecati, adipisci aliquam numquam alias tempora rem delectus recusandae nihil maiores soluta doloribus explicabo. Iste sint aliquid cupiditate obcaecati laudantium facilis ullam aut, provident quod temporibus optio quis eveniet dolores sapiente iusto eius vitae aliquam, eaque rerum. Autem rerum consectetur, perferendis mollitia earum consequuntur quas quia esse possimus ad facilis dolorum neque fugit maxime est. Assumenda inventore non explicabo impedit eos velit repudiandae expedita exercitationem repellendus error praesentium optio dignissimos reprehenderit iste, nisi ab aut aliquid iure, ad id corporis architecto. Deleniti laboriosam nostrum commodi animi dicta.</p>
+                </article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim explicabo, eius soluta fugiat praesentium quaerat odio officiis velit rerum optio, facilis maxime dolore cumque! Unde fugiat laborum sapiente inventore illum error assumenda repellendus praesentium! Eius autem maxime, cumque itaque similique delectus, esse, id pariatur nisi voluptates quaerat natus iure!</p>
+                <ul>
+                    <li><a href="./index.html">Index</a></li>
+                    <li><a href="./table_list.html">Table & lists</a></li>
+                    <li><strong>Contact</strong></li>
+                </ul>
+            </div>
+            <!-- Example of inline element illustration -->
+            <span id="main-heading">Lorem ipsum dolor sit <strong>amet</strong> consectetur <em>adipisicing</em> elit. Labore, ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci <a href="#top">Back to top</a> cupiditate placeat voluptas delectus dolorum id totam quae.
+            </span>
+        </section>
+        <section>
+            <h4 style="text-align: center">Iframe in HTML</h4>
+            <div class="container">
+                <iframe  class="responsive-iframe" src="https://aliexpress.com" frameborder="0"   title="aliexpress page"></iframe><br>
+            </div>
+        </section>
+        <section>
+            <!-- Media elements -->
+            <h4 style="text-align: center;">Media Elements In HTML</h4>
+            <div class="flex-container">
+                <div>
+                    <img  src="./assets/images/pexels-steve-johnson-1509534.jpg" alt="website background image" class="flex-item-left">
+                </div>
+                <div>
+                    <video src="./assets/videos/production_id_4880777 (2160p).mp4" controls  class="flex-item-right"></video>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <footer>&copy;2023 | Web Content Integration & Media Elements
+    </footer>
+</body>
+</html>

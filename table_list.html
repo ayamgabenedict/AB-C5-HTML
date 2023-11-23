@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LISTS AND TABLES</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.jfif">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #projects ul li {
+            list-style-type:square;
+            text-align: justify;
+        }
+        #history {
+            text-align: justify;
+            list-style-type: lower-alpha;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ASSIGNMENT: HTML Lists and Tables</h1>
+        <p>This assignment is about replicating a table design using the knowledge and skills from the Azubi Africa frontend Development class.</p>
+    </header>
+
+    <section>
+        <table>
+            <caption> Time Table</caption>
+            <!-- Using "thead", "tbody", didn't make the table appear as desired. Would  have to figure this out -->
+               <!-- <thead> -->
+                <tr>
+                    <th rowspan="6">Hours</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+            <!-- </thead> -->
+            <!-- <tbody> -->
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Arts</td>
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td><strong>History</strong>
+                        <ol id="history">
+                            <li>Ghana's Independence Struggle</li>
+                            <li>The Trans-Altlantic Slave Trade</li>
+                            <li>Yaa Asantewaa and the Ashanti Empire</li>
+                        </ol>
+                    </td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td>Sports</td>
+                </tr>
+                <tr>
+                    <td colspan="5" id=""lunch>Lunch</td> 
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td rowspan="2" id="projects"><strong>Projects</strong>
+                        <ul>
+                            <li>GitHub Clone</li>
+                            <li>YouTube Clone</li>
+                            <li>Ecommerce</li>
+                            <li>Social Media App</li>
+                        </ul>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td><strong>History</strong>
+                        <ol id="history">
+                            <li>Ghana's Independence Struggle</li>
+                            <li>The Trans-Altlantic Slave Trade</li>
+                            <li>Yaa Asantewaa and the Ashanti Empire</li>
+                        </ol>
+                    </td>
+                    <td>English</td>
+                    <td>Social</td>
+                    
+                </tr>
+            <!-- </tbody> -->
+        </table>
+    </section>
+    <br>
+    
+ <aside>
+    <b>Note: </b>This HTML file opened as expected in <i><strong>Microsoft Edge</strong></i> (Version 118.0.2088.76); <i><strong>Google Chrome</strong></i> (Version 118.0.5993.120) and <i><strong>Avast Secure browser</strong></i> (Version 118.0.22847.89 ).
+ </aside>
+ <br>
+ <hr>
+ <footer>
+    Copyright &copy; 2023 Tables & List Project
+</footer>
+</body>
+</html>
